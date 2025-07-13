@@ -9,7 +9,7 @@ import {
   MYTHICALS_SV,
 } from "../services/pokemonApi";
 import "./PokemonRoulette.css";
-import pokemonLista from "../pokemonLista.json";
+import pokemonLista from "../pokemonListaSV.json";
 
 console.log("SV_POKEMON_IDS", SV_POKEMON_IDS.length);
 
@@ -62,6 +62,13 @@ function getRandomSample<T>(arr: T[], n: number): T[] {
   return result;
 }
 
+function shuffleArray<T>(array: T[]): T[] {
+  return array
+    .map((value) => ({ value, sort: Math.random() }))
+    .sort((a, b) => a.sort - b.sort)
+    .map(({ value }) => value);
+}
+
 function getSectorPath(
   cx: number,
   cy: number,
@@ -109,7 +116,6 @@ const ManualRoulette: React.FC = () => {
   );
   const [selected, setSelected] = useState<Pokemon | null>(null);
   const [isLoading, setIsLoading] = useState(true);
-  const [version] = useState<Version>("scarlet");
   const [angle, setAngle] = useState(0); // rotação da roleta
   const [spinning, setSpinning] = useState(false);
   const [speciesInfo, setSpeciesInfo] = useState<{
@@ -118,6 +124,7 @@ const ManualRoulette: React.FC = () => {
     flavor_en?: string;
     flavor_pt?: string;
   }>({});
+  const [spinCount, setSpinCount] = useState(0);
 
   useEffect(() => {
     // Montar a lista a partir do JSON
@@ -130,12 +137,7 @@ const ManualRoulette: React.FC = () => {
   }, []);
 
   useEffect(() => {
-    let filtered: { name: string; id: number }[] = [];
-    if (version === "scarlet") {
-      filtered = allNames.filter((p) => SCARLET_EXCLUSIVES.includes(p.id));
-    } else if (version === "violet") {
-      filtered = allNames.filter((p) => VIOLET_EXCLUSIVES.includes(p.id));
-    }
+    let filtered: { name: string; id: number }[] = allNames;
     filtered = filtered.filter(
       (p) => !LEGENDARIES_SV.includes(p.id) && !MYTHICALS_SV.includes(p.id)
     );
@@ -143,7 +145,7 @@ const ManualRoulette: React.FC = () => {
     setWheelNames(getRandomSample(filtered, WHEEL_SIZE));
     setSelected(null);
     setAngle(0);
-  }, [version, allNames]);
+  }, [allNames]);
 
   const handleSpin = async () => {
     if (spinning || isLoading || wheelNames.length === 0) return;
@@ -154,9 +156,10 @@ const ManualRoulette: React.FC = () => {
     const random = Math.floor(Math.random() * N);
     const sectorAngle = 360 / N;
     const centerOfSector = sectorAngle * random + sectorAngle / 2;
-    const voltas = 5;
-    const finalAngle = voltas * 360 - centerOfSector; // Ponteiro à direita (0°)
+    const voltas = 5 + spinCount; // sempre aumenta
+    const finalAngle = voltas * 360 - centerOfSector;
     setAngle(finalAngle);
+    setSpinCount(spinCount + 1); // incrementa para o próximo giro
     setTimeout(async () => {
       setSpinning(false);
       setIsLoading(true);
@@ -189,14 +192,20 @@ const ManualRoulette: React.FC = () => {
   };
 
   const handleNewWheel = () => {
-    const maxPokemons = Math.min(filteredNames.length, WHEEL_SIZE);
-    let newWheel;
-    do {
-      newWheel = getRandomSample(filteredNames, maxPokemons);
-    } while (
-      newWheel.length === wheelNames.length &&
-      newWheel.every((p, i) => p.id === wheelNames[i]?.id)
-    );
+    // IDs dos Pokémon já exibidos
+    const previousIds = new Set(wheelNames.map((p) => p.id));
+    // Filtra para não pegar nenhum dos atuais
+    let available = filteredNames.filter((p) => !previousIds.has(p.id));
+    let shuffled = shuffleArray(available);
+    let newWheel = shuffled.slice(0, WHEEL_SIZE);
+
+    // Se não houver 30 novos, recomeça o ciclo (permite repetições)
+    if (newWheel.length < WHEEL_SIZE) {
+      // Junta todos novamente, embaralha e pega 30
+      shuffled = shuffleArray(filteredNames);
+      newWheel = shuffled.slice(0, WHEEL_SIZE);
+    }
+
     setWheelNames(newWheel);
     setSelected(null);
     setAngle(0);

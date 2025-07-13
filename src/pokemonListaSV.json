@@ -1,357 +1,2658 @@
 [
   {
-    "id": 906,
-    "name": "Sprigatito",
-    "national_dex": 906
+    "dex_nacional": "1",
+    "nome": "bulbasaur"
   },
   {
-    "id": 907,
-    "name": "Floragato",
-    "national_dex": 907
+    "dex_nacional": "2",
+    "nome": "ivysaur"
   },
   {
-    "id": 908,
-    "name": "Meowscarada",
-    "national_dex": 908
+    "dex_nacional": "3",
+    "nome": "venusaur"
   },
   {
-    "id": 909,
-    "name": "Fuecoco",
-    "national_dex": 909
+    "dex_nacional": "4",
+    "nome": "charmander"
   },
   {
-    "id": 910,
-    "name": "Crocalor",
-    "national_dex": 910
+    "dex_nacional": "5",
+    "nome": "charmeleon"
   },
   {
-    "id": 911,
-    "name": "Skeledirge",
-    "national_dex": 911
+    "dex_nacional": "6",
+    "nome": "charizard"
   },
   {
-    "id": 912,
-    "name": "Quaxly",
-    "national_dex": 912
+    "dex_nacional": "7",
+    "nome": "squirtle"
   },
   {
-    "id": 913,
-    "name": "Quaxwell",
-    "national_dex": 913
+    "dex_nacional": "8",
+    "nome": "wartortle"
   },
   {
-    "id": 914,
-    "name": "Quaquaval",
-    "national_dex": 914
+    "dex_nacional": "9",
+    "nome": "blastoise"
   },
   {
-    "id": 915,
-    "name": "Lechonk",
-    "national_dex": 915
+    "dex_nacional": "23",
+    "nome": "ekans"
   },
   {
-    "id": 916,
-    "name": "Oinkologne",
-    "national_dex": 916
+    "dex_nacional": "24",
+    "nome": "arbok"
   },
   {
-    "id": 917,
-    "name": "Tarountula",
-    "national_dex": 917
+    "dex_nacional": "25",
+    "nome": "pikachu"
   },
   {
-    "id": 918,
-    "name": "Spidops",
-    "national_dex": 918
+    "dex_nacional": "26",
+    "nome": "raichu"
   },
   {
-    "id": 919,
-    "name": "Nymble",
-    "national_dex": 919
+    "dex_nacional": "27",
+    "nome": "sandshrew"
   },
   {
-    "id": 920,
-    "name": "Lokix",
-    "national_dex": 920
+    "dex_nacional": "28",
+    "nome": "sandslash"
   },
   {
-    "id": 921,
-    "name": "Pawmi",
-    "national_dex": 921
+    "dex_nacional": "35",
+    "nome": "clefairy"
   },
   {
-    "id": 922,
-    "name": "Pawmo",
-    "national_dex": 922
+    "dex_nacional": "36",
+    "nome": "clefable"
   },
   {
-    "id": 923,
-    "name": "Pawmot",
-    "national_dex": 923
+    "dex_nacional": "37",
+    "nome": "vulpix"
   },
   {
-    "id": 924,
-    "name": "Hoppip",
-    "national_dex": 187
+    "dex_nacional": "38",
+    "nome": "ninetales"
   },
   {
-    "id": 925,
-    "name": "Skiploom",
-    "national_dex": 188
+    "dex_nacional": "39",
+    "nome": "jigglypuff"
   },
   {
-    "id": 926,
-    "name": "Jumpluff",
-    "national_dex": 189
+    "dex_nacional": "40",
+    "nome": "wigglytuff"
   },
   {
-    "id": 927,
-    "name": "Fletchling",
-    "national_dex": 661
+    "dex_nacional": "43",
+    "nome": "oddish"
   },
   {
-    "id": 928,
-    "name": "Fletchinder",
-    "national_dex": 662
+    "dex_nacional": "44",
+    "nome": "gloom"
   },
   {
-    "id": 929,
-    "name": "Talonflame",
-    "national_dex": 663
+    "dex_nacional": "45",
+    "nome": "vileplume"
   },
   {
-    "id": 930,
-    "name": "Yungoos",
-    "national_dex": 734
+    "dex_nacional": "48",
+    "nome": "venonat"
   },
   {
-    "id": 931,
-    "name": "Gumshoos",
-    "national_dex": 735
+    "dex_nacional": "49",
+    "nome": "venomoth"
   },
   {
-    "id": 932,
-    "name": "Pichu",
-    "national_dex": 172
+    "dex_nacional": "50",
+    "nome": "diglett"
   },
   {
-    "id": 933,
-    "name": "Pikachu",
-    "national_dex": 25
+    "dex_nacional": "51",
+    "nome": "dugtrio"
   },
   {
-    "id": 934,
-    "name": "Raichu",
-    "national_dex": 26
+    "dex_nacional": "52",
+    "nome": "meowth"
   },
   {
-    "id": 935,
-    "name": "Houndour",
-    "national_dex": 228
+    "dex_nacional": "53",
+    "nome": "persian"
   },
   {
-    "id": 936,
-    "name": "Houndoom",
-    "national_dex": 229
+    "dex_nacional": "54",
+    "nome": "psyduck"
   },
   {
-    "id": 939,
-    "name": "Oricorio",
-    "national_dex": 741
+    "dex_nacional": "55",
+    "nome": "golduck"
   },
   {
-    "id": 940,
-    "name": "Rockruff",
-    "national_dex": 744
+    "dex_nacional": "56",
+    "nome": "mankey"
   },
   {
-    "id": 941,
-    "name": "Lycanroc",
-    "national_dex": 745
+    "dex_nacional": "57",
+    "nome": "primeape"
   },
   {
-    "id": 942,
-    "name": "Wiglett",
-    "national_dex": 943
+    "dex_nacional": "58",
+    "nome": "growlithe"
   },
   {
-    "id": 943,
-    "name": "Wugtrio",
-    "national_dex": 944
+    "dex_nacional": "59",
+    "nome": "arcanine"
   },
   {
-    "id": 944,
-    "name": "Dondozo",
-    "national_dex": 945
+    "dex_nacional": "60",
+    "nome": "poliwag"
   },
   {
-    "id": 945,
-    "name": "Veluza",
-    "national_dex": 946
+    "dex_nacional": "61",
+    "nome": "poliwhirl"
   },
   {
-    "id": 946,
-    "name": "Finizen",
-    "national_dex": 947
+    "dex_nacional": "62",
+    "nome": "poliwrath"
   },
   {
-    "id": 947,
-    "name": "Palafin",
-    "national_dex": 948
+    "dex_nacional": "69",
+    "nome": "bellsprout"
   },
   {
-    "id": 948,
-    "name": "Smoliv",
-    "national_dex": 949
+    "dex_nacional": "70",
+    "nome": "weepinbell"
   },
   {
-    "id": 949,
-    "name": "Dolliv",
-    "national_dex": 950
+    "dex_nacional": "71",
+    "nome": "victreebel"
   },
   {
-    "id": 950,
-    "name": "Arboliva",
-    "national_dex": 951
+    "dex_nacional": "72",
+    "nome": "tentacool"
   },
   {
-    "id": 951,
-    "name": "Capsakid",
-    "national_dex": 952
+    "dex_nacional": "73",
+    "nome": "tentacruel"
   },
   {
-    "id": 952,
-    "name": "Scovillain",
-    "national_dex": 953
+    "dex_nacional": "74",
+    "nome": "geodude"
   },
   {
-    "id": 953,
-    "name": "Rellor",
-    "national_dex": 954
+    "dex_nacional": "75",
+    "nome": "graveler"
   },
   {
-    "id": 954,
-    "name": "Rabsca",
-    "national_dex": 955
+    "dex_nacional": "76",
+    "nome": "golem"
   },
   {
-    "id": 955,
-    "name": "Flittle",
-    "national_dex": 956
+    "dex_nacional": "79",
+    "nome": "slowpoke"
   },
   {
-    "id": 956,
-    "name": "Espathra",
-    "national_dex": 957
+    "dex_nacional": "80",
+    "nome": "slowbro"
   },
   {
-    "id": 957,
-    "name": "Tinkatink",
-    "national_dex": 958
+    "dex_nacional": "81",
+    "nome": "magnemite"
   },
   {
-    "id": 958,
-    "name": "Tinkatuff",
-    "national_dex": 959
+    "dex_nacional": "82",
+    "nome": "magneton"
   },
   {
-    "id": 959,
-    "name": "Tinkaton",
-    "national_dex": 960
+    "dex_nacional": "84",
+    "nome": "doduo"
   },
   {
-    "id": 962,
-    "name": "Bombirdier",
-    "national_dex": 962
+    "dex_nacional": "85",
+    "nome": "dodrio"
   },
   {
-    "id": 963,
-    "name": "Squawkabilly",
-    "national_dex": 963
+    "dex_nacional": "86",
+    "nome": "seel"
   },
   {
-    "id": 964,
-    "name": "Flamigo",
-    "national_dex": 964
+    "dex_nacional": "87",
+    "nome": "dewgong"
   },
   {
-    "id": 965,
-    "name": "Klawf",
-    "national_dex": 965
+    "dex_nacional": "88",
+    "nome": "grimer"
   },
   {
-    "id": 966,
-    "name": "Nacli",
-    "national_dex": 966
+    "dex_nacional": "89",
+    "nome": "muk"
   },
   {
-    "id": 967,
-    "name": "Naclstack",
-    "national_dex": 967
+    "dex_nacional": "90",
+    "nome": "shellder"
   },
   {
-    "id": 968,
-    "name": "Garganacl",
-    "national_dex": 968
+    "dex_nacional": "91",
+    "nome": "cloyster"
   },
   {
-    "id": 969,
-    "name": "Glimmet",
-    "national_dex": 969
+    "dex_nacional": "92",
+    "nome": "gastly"
   },
   {
-    "id": 970,
-    "name": "Glimmora",
-    "national_dex": 970
+    "dex_nacional": "93",
+    "nome": "haunter"
   },
   {
-    "id": 971,
-    "name": "Shroodle",
-    "national_dex": 971
+    "dex_nacional": "94",
+    "nome": "gengar"
   },
   {
-    "id": 972,
-    "name": "Grafaiai",
-    "national_dex": 972
+    "dex_nacional": "96",
+    "nome": "drowzee"
   },
   {
-    "id": 973,
-    "name": "Fidough",
-    "national_dex": 973
+    "dex_nacional": "97",
+    "nome": "hypno"
   },
   {
-    "id": 974,
-    "name": "Dachsbun",
-    "national_dex": 974
+    "dex_nacional": "100",
+    "nome": "voltorb"
   },
   {
-    "id": 975,
-    "name": "Maschiff",
-    "national_dex": 975
+    "dex_nacional": "101",
+    "nome": "electrode"
   },
   {
-    "id": 976,
-    "name": "Mabosstiff",
-    "national_dex": 976
+    "dex_nacional": "102",
+    "nome": "exeggcute"
   },
   {
-    "id": 977,
-    "name": "Bramblin",
-    "national_dex": 977
+    "dex_nacional": "103",
+    "nome": "exeggutor"
   },
   {
-    "id": 978,
-    "name": "Brambleghast",
-    "national_dex": 978
+    "dex_nacional": "106",
+    "nome": "hitmonlee"
   },
   {
-    "id": 979,
-    "name": "Toedscool",
-    "national_dex": 979
+    "dex_nacional": "107",
+    "nome": "hitmonchan"
   },
   {
-    "id": 980,
-    "name": "Toedscruel",
-    "national_dex": 980
+    "dex_nacional": "109",
+    "nome": "koffing"
+  },
+  {
+    "dex_nacional": "110",
+    "nome": "weezing"
+  },
+  {
+    "dex_nacional": "111",
+    "nome": "rhyhorn"
+  },
+  {
+    "dex_nacional": "112",
+    "nome": "rhydon"
+  },
+  {
+    "dex_nacional": "113",
+    "nome": "chansey"
+  },
+  {
+    "dex_nacional": "116",
+    "nome": "horsea"
+  },
+  {
+    "dex_nacional": "117",
+    "nome": "seadra"
+  },
+  {
+    "dex_nacional": "123",
+    "nome": "scyther"
+  },
+  {
+    "dex_nacional": "125",
+    "nome": "electabuzz"
+  },
+  {
+    "dex_nacional": "126",
+    "nome": "magmar"
+  },
+  {
+    "dex_nacional": "128",
+    "nome": "tauros"
+  },
+  {
+    "dex_nacional": "129",
+    "nome": "magikarp"
+  },
+  {
+    "dex_nacional": "130",
+    "nome": "gyarados"
+  },
+  {
+    "dex_nacional": "131",
+    "nome": "lapras"
+  },
+  {
+    "dex_nacional": "132",
+    "nome": "ditto"
+  },
+  {
+    "dex_nacional": "133",
+    "nome": "eevee"
+  },
+  {
+    "dex_nacional": "134",
+    "nome": "vaporeon"
+  },
+  {
+    "dex_nacional": "135",
+    "nome": "jolteon"
+  },
+  {
+    "dex_nacional": "136",
+    "nome": "flareon"
+  },
+  {
+    "dex_nacional": "137",
+    "nome": "porygon"
+  },
+  {
+    "dex_nacional": "143",
+    "nome": "snorlax"
+  },
+  {
+    "dex_nacional": "147",
+    "nome": "dratini"
+  },
+  {
+    "dex_nacional": "148",
+    "nome": "dragonair"
+  },
+  {
+    "dex_nacional": "149",
+    "nome": "dragonite"
+  },
+  {
+    "dex_nacional": "152",
+    "nome": "chikorita"
+  },
+  {
+    "dex_nacional": "153",
+    "nome": "bayleef"
+  },
+  {
+    "dex_nacional": "154",
+    "nome": "meganium"
+  },
+  {
+    "dex_nacional": "155",
+    "nome": "cyndaquil"
+  },
+  {
+    "dex_nacional": "156",
+    "nome": "quilava"
+  },
+  {
+    "dex_nacional": "157",
+    "nome": "typhlosion"
+  },
+  {
+    "dex_nacional": "158",
+    "nome": "totodile"
+  },
+  {
+    "dex_nacional": "159",
+    "nome": "croconaw"
+  },
+  {
+    "dex_nacional": "160",
+    "nome": "feraligatr"
+  },
+  {
+    "dex_nacional": "161",
+    "nome": "sentret"
+  },
+  {
+    "dex_nacional": "162",
+    "nome": "furret"
+  },
+  {
+    "dex_nacional": "163",
+    "nome": "hoothoot"
+  },
+  {
+    "dex_nacional": "164",
+    "nome": "noctowl"
+  },
+  {
+    "dex_nacional": "167",
+    "nome": "spinarak"
+  },
+  {
+    "dex_nacional": "168",
+    "nome": "ariados"
+  },
+  {
+    "dex_nacional": "170",
+    "nome": "chinchou"
+  },
+  {
+    "dex_nacional": "171",
+    "nome": "lanturn"
+  },
+  {
+    "dex_nacional": "172",
+    "nome": "pichu"
+  },
+  {
+    "dex_nacional": "173",
+    "nome": "cleffa"
+  },
+  {
+    "dex_nacional": "174",
+    "nome": "igglybuff"
+  },
+  {
+    "dex_nacional": "179",
+    "nome": "mareep"
+  },
+  {
+    "dex_nacional": "180",
+    "nome": "flaaffy"
+  },
+  {
+    "dex_nacional": "181",
+    "nome": "ampharos"
+  },
+  {
+    "dex_nacional": "182",
+    "nome": "bellossom"
+  },
+  {
+    "dex_nacional": "183",
+    "nome": "marill"
+  },
+  {
+    "dex_nacional": "184",
+    "nome": "azumarill"
+  },
+  {
+    "dex_nacional": "185",
+    "nome": "sudowoodo"
+  },
+  {
+    "dex_nacional": "186",
+    "nome": "politoed"
+  },
+  {
+    "dex_nacional": "187",
+    "nome": "hoppip"
+  },
+  {
+    "dex_nacional": "188",
+    "nome": "skiploom"
+  },
+  {
+    "dex_nacional": "189",
+    "nome": "jumpluff"
+  },
+  {
+    "dex_nacional": "190",
+    "nome": "aipom"
+  },
+  {
+    "dex_nacional": "191",
+    "nome": "sunkern"
+  },
+  {
+    "dex_nacional": "192",
+    "nome": "sunflora"
+  },
+  {
+    "dex_nacional": "193",
+    "nome": "yanma"
+  },
+  {
+    "dex_nacional": "194",
+    "nome": "wooper"
+  },
+  {
+    "dex_nacional": "195",
+    "nome": "quagsire"
+  },
+  {
+    "dex_nacional": "196",
+    "nome": "espeon"
+  },
+  {
+    "dex_nacional": "197",
+    "nome": "umbreon"
+  },
+  {
+    "dex_nacional": "198",
+    "nome": "murkrow"
+  },
+  {
+    "dex_nacional": "199",
+    "nome": "slowking"
+  },
+  {
+    "dex_nacional": "200",
+    "nome": "misdreavus"
+  },
+  {
+    "dex_nacional": "203",
+    "nome": "girafarig"
+  },
+  {
+    "dex_nacional": "204",
+    "nome": "pineco"
+  },
+  {
+    "dex_nacional": "205",
+    "nome": "forretress"
+  },
+  {
+    "dex_nacional": "206",
+    "nome": "dunsparce"
+  },
+  {
+    "dex_nacional": "207",
+    "nome": "gligar"
+  },
+  {
+    "dex_nacional": "209",
+    "nome": "snubbull"
+  },
+  {
+    "dex_nacional": "210",
+    "nome": "granbull"
+  },
+  {
+    "dex_nacional": "211",
+    "nome": "qwilfish"
+  },
+  {
+    "dex_nacional": "212",
+    "nome": "scizor"
+  },
+  {
+    "dex_nacional": "214",
+    "nome": "heracross"
+  },
+  {
+    "dex_nacional": "215",
+    "nome": "sneasel"
+  },
+  {
+    "dex_nacional": "216",
+    "nome": "teddiursa"
+  },
+  {
+    "dex_nacional": "217",
+    "nome": "ursaring"
+  },
+  {
+    "dex_nacional": "218",
+    "nome": "slugma"
+  },
+  {
+    "dex_nacional": "219",
+    "nome": "magcargo"
+  },
+  {
+    "dex_nacional": "220",
+    "nome": "swinub"
+  },
+  {
+    "dex_nacional": "221",
+    "nome": "piloswine"
+  },
+  {
+    "dex_nacional": "225",
+    "nome": "delibird"
+  },
+  {
+    "dex_nacional": "227",
+    "nome": "skarmory"
+  },
+  {
+    "dex_nacional": "228",
+    "nome": "houndour"
+  },
+  {
+    "dex_nacional": "229",
+    "nome": "houndoom"
+  },
+  {
+    "dex_nacional": "230",
+    "nome": "kingdra"
+  },
+  {
+    "dex_nacional": "231",
+    "nome": "phanpy"
+  },
+  {
+    "dex_nacional": "232",
+    "nome": "donphan"
+  },
+  {
+    "dex_nacional": "233",
+    "nome": "porygon2"
+  },
+  {
+    "dex_nacional": "234",
+    "nome": "stantler"
+  },
+  {
+    "dex_nacional": "235",
+    "nome": "smeargle"
+  },
+  {
+    "dex_nacional": "236",
+    "nome": "tyrogue"
+  },
+  {
+    "dex_nacional": "237",
+    "nome": "hitmontop"
+  },
+  {
+    "dex_nacional": "239",
+    "nome": "elekid"
+  },
+  {
+    "dex_nacional": "240",
+    "nome": "magby"
+  },
+  {
+    "dex_nacional": "242",
+    "nome": "blissey"
+  },
+  {
+    "dex_nacional": "246",
+    "nome": "larvitar"
+  },
+  {
+    "dex_nacional": "247",
+    "nome": "pupitar"
+  },
+  {
+    "dex_nacional": "248",
+    "nome": "tyranitar"
+  },
+  {
+    "dex_nacional": "252",
+    "nome": "treecko"
+  },
+  {
+    "dex_nacional": "253",
+    "nome": "grovyle"
+  },
+  {
+    "dex_nacional": "254",
+    "nome": "sceptile"
+  },
+  {
+    "dex_nacional": "255",
+    "nome": "torchic"
+  },
+  {
+    "dex_nacional": "256",
+    "nome": "combusken"
+  },
+  {
+    "dex_nacional": "257",
+    "nome": "blaziken"
+  },
+  {
+    "dex_nacional": "258",
+    "nome": "mudkip"
+  },
+  {
+    "dex_nacional": "259",
+    "nome": "marshtomp"
+  },
+  {
+    "dex_nacional": "260",
+    "nome": "swampert"
+  },
+  {
+    "dex_nacional": "261",
+    "nome": "poochyena"
+  },
+  {
+    "dex_nacional": "262",
+    "nome": "mightyena"
+  },
+  {
+    "dex_nacional": "270",
+    "nome": "lotad"
+  },
+  {
+    "dex_nacional": "271",
+    "nome": "lombre"
+  },
+  {
+    "dex_nacional": "272",
+    "nome": "ludicolo"
+  },
+  {
+    "dex_nacional": "273",
+    "nome": "seedot"
+  },
+  {
+    "dex_nacional": "274",
+    "nome": "nuzleaf"
+  },
+  {
+    "dex_nacional": "275",
+    "nome": "shiftry"
+  },
+  {
+    "dex_nacional": "278",
+    "nome": "wingull"
+  },
+  {
+    "dex_nacional": "279",
+    "nome": "pelipper"
+  },
+  {
+    "dex_nacional": "280",
+    "nome": "ralts"
+  },
+  {
+    "dex_nacional": "281",
+    "nome": "kirlia"
+  },
+  {
+    "dex_nacional": "282",
+    "nome": "gardevoir"
+  },
+  {
+    "dex_nacional": "283",
+    "nome": "surskit"
+  },
+  {
+    "dex_nacional": "284",
+    "nome": "masquerain"
+  },
+  {
+    "dex_nacional": "285",
+    "nome": "shroomish"
+  },
+  {
+    "dex_nacional": "286",
+    "nome": "breloom"
+  },
+  {
+    "dex_nacional": "287",
+    "nome": "slakoth"
+  },
+  {
+    "dex_nacional": "288",
+    "nome": "vigoroth"
+  },
+  {
+    "dex_nacional": "289",
+    "nome": "slaking"
+  },
+  {
+    "dex_nacional": "296",
+    "nome": "makuhita"
+  },
+  {
+    "dex_nacional": "297",
+    "nome": "hariyama"
+  },
+  {
+    "dex_nacional": "298",
+    "nome": "azurill"
+  },
+  {
+    "dex_nacional": "299",
+    "nome": "nosepass"
+  },
+  {
+    "dex_nacional": "302",
+    "nome": "sableye"
+  },
+  {
+    "dex_nacional": "307",
+    "nome": "meditite"
+  },
+  {
+    "dex_nacional": "308",
+    "nome": "medicham"
+  },
+  {
+    "dex_nacional": "311",
+    "nome": "plusle"
+  },
+  {
+    "dex_nacional": "312",
+    "nome": "minun"
+  },
+  {
+    "dex_nacional": "313",
+    "nome": "volbeat"
+  },
+  {
+    "dex_nacional": "314",
+    "nome": "illumise"
+  },
+  {
+    "dex_nacional": "316",
+    "nome": "gulpin"
+  },
+  {
+    "dex_nacional": "317",
+    "nome": "swalot"
+  },
+  {
+    "dex_nacional": "322",
+    "nome": "numel"
+  },
+  {
+    "dex_nacional": "323",
+    "nome": "camerupt"
+  },
+  {
+    "dex_nacional": "324",
+    "nome": "torkoal"
+  },
+  {
+    "dex_nacional": "325",
+    "nome": "spoink"
+  },
+  {
+    "dex_nacional": "326",
+    "nome": "grumpig"
+  },
+  {
+    "dex_nacional": "328",
+    "nome": "trapinch"
+  },
+  {
+    "dex_nacional": "329",
+    "nome": "vibrava"
+  },
+  {
+    "dex_nacional": "330",
+    "nome": "flygon"
+  },
+  {
+    "dex_nacional": "331",
+    "nome": "cacnea"
+  },
+  {
+    "dex_nacional": "332",
+    "nome": "cacturne"
+  },
+  {
+    "dex_nacional": "333",
+    "nome": "swablu"
+  },
+  {
+    "dex_nacional": "334",
+    "nome": "altaria"
+  },
+  {
+    "dex_nacional": "335",
+    "nome": "zangoose"
+  },
+  {
+    "dex_nacional": "336",
+    "nome": "seviper"
+  },
+  {
+    "dex_nacional": "339",
+    "nome": "barboach"
+  },
+  {
+    "dex_nacional": "340",
+    "nome": "whiscash"
+  },
+  {
+    "dex_nacional": "341",
+    "nome": "corphish"
+  },
+  {
+    "dex_nacional": "342",
+    "nome": "crawdaunt"
+  },
+  {
+    "dex_nacional": "349",
+    "nome": "feebas"
+  },
+  {
+    "dex_nacional": "350",
+    "nome": "milotic"
+  },
+  {
+    "dex_nacional": "353",
+    "nome": "shuppet"
+  },
+  {
+    "dex_nacional": "354",
+    "nome": "banette"
+  },
+  {
+    "dex_nacional": "355",
+    "nome": "duskull"
+  },
+  {
+    "dex_nacional": "356",
+    "nome": "dusclops"
+  },
+  {
+    "dex_nacional": "357",
+    "nome": "tropius"
+  },
+  {
+    "dex_nacional": "358",
+    "nome": "chimecho"
+  },
+  {
+    "dex_nacional": "361",
+    "nome": "snorunt"
+  },
+  {
+    "dex_nacional": "362",
+    "nome": "glalie"
+  },
+  {
+    "dex_nacional": "370",
+    "nome": "luvdisc"
+  },
+  {
+    "dex_nacional": "371",
+    "nome": "bagon"
+  },
+  {
+    "dex_nacional": "372",
+    "nome": "shelgon"
+  },
+  {
+    "dex_nacional": "373",
+    "nome": "salamence"
+  },
+  {
+    "dex_nacional": "374",
+    "nome": "beldum"
+  },
+  {
+    "dex_nacional": "375",
+    "nome": "metang"
+  },
+  {
+    "dex_nacional": "376",
+    "nome": "metagross"
+  },
+  {
+    "dex_nacional": "387",
+    "nome": "turtwig"
+  },
+  {
+    "dex_nacional": "388",
+    "nome": "grotle"
+  },
+  {
+    "dex_nacional": "389",
+    "nome": "torterra"
+  },
+  {
+    "dex_nacional": "390",
+    "nome": "chimchar"
+  },
+  {
+    "dex_nacional": "391",
+    "nome": "monferno"
+  },
+  {
+    "dex_nacional": "392",
+    "nome": "infernape"
+  },
+  {
+    "dex_nacional": "393",
+    "nome": "piplup"
+  },
+  {
+    "dex_nacional": "394",
+    "nome": "prinplup"
+  },
+  {
+    "dex_nacional": "395",
+    "nome": "empoleon"
+  },
+  {
+    "dex_nacional": "396",
+    "nome": "starly"
+  },
+  {
+    "dex_nacional": "397",
+    "nome": "staravia"
+  },
+  {
+    "dex_nacional": "398",
+    "nome": "staraptor"
+  },
+  {
+    "dex_nacional": "401",
+    "nome": "kricketot"
+  },
+  {
+    "dex_nacional": "402",
+    "nome": "kricketune"
+  },
+  {
+    "dex_nacional": "403",
+    "nome": "shinx"
+  },
+  {
+    "dex_nacional": "404",
+    "nome": "luxio"
+  },
+  {
+    "dex_nacional": "405",
+    "nome": "luxray"
+  },
+  {
+    "dex_nacional": "408",
+    "nome": "cranidos"
+  },
+  {
+    "dex_nacional": "409",
+    "nome": "rampardos"
+  },
+  {
+    "dex_nacional": "410",
+    "nome": "shieldon"
+  },
+  {
+    "dex_nacional": "411",
+    "nome": "bastiodon"
+  },
+  {
+    "dex_nacional": "415",
+    "nome": "combee"
+  },
+  {
+    "dex_nacional": "416",
+    "nome": "vespiquen"
+  },
+  {
+    "dex_nacional": "417",
+    "nome": "pachirisu"
+  },
+  {
+    "dex_nacional": "418",
+    "nome": "buizel"
+  },
+  {
+    "dex_nacional": "419",
+    "nome": "floatzel"
+  },
+  {
+    "dex_nacional": "422",
+    "nome": "shellos"
+  },
+  {
+    "dex_nacional": "423",
+    "nome": "gastrodon"
+  },
+  {
+    "dex_nacional": "424",
+    "nome": "ambipom"
+  },
+  {
+    "dex_nacional": "425",
+    "nome": "drifloon"
+  },
+  {
+    "dex_nacional": "426",
+    "nome": "drifblim"
+  },
+  {
+    "dex_nacional": "429",
+    "nome": "mismagius"
+  },
+  {
+    "dex_nacional": "430",
+    "nome": "honchkrow"
+  },
+  {
+    "dex_nacional": "433",
+    "nome": "chingling"
+  },
+  {
+    "dex_nacional": "434",
+    "nome": "stunky"
+  },
+  {
+    "dex_nacional": "435",
+    "nome": "skuntank"
+  },
+  {
+    "dex_nacional": "436",
+    "nome": "bronzor"
+  },
+  {
+    "dex_nacional": "437",
+    "nome": "bronzong"
+  },
+  {
+    "dex_nacional": "438",
+    "nome": "bonsly"
+  },
+  {
+    "dex_nacional": "440",
+    "nome": "happiny"
+  },
+  {
+    "dex_nacional": "442",
+    "nome": "spiritomb"
+  },
+  {
+    "dex_nacional": "443",
+    "nome": "gible"
+  },
+  {
+    "dex_nacional": "444",
+    "nome": "gabite"
+  },
+  {
+    "dex_nacional": "445",
+    "nome": "garchomp"
+  },
+  {
+    "dex_nacional": "446",
+    "nome": "munchlax"
+  },
+  {
+    "dex_nacional": "447",
+    "nome": "riolu"
+  },
+  {
+    "dex_nacional": "448",
+    "nome": "lucario"
+  },
+  {
+    "dex_nacional": "449",
+    "nome": "hippopotas"
+  },
+  {
+    "dex_nacional": "450",
+    "nome": "hippowdon"
+  },
+  {
+    "dex_nacional": "453",
+    "nome": "croagunk"
+  },
+  {
+    "dex_nacional": "454",
+    "nome": "toxicroak"
+  },
+  {
+    "dex_nacional": "456",
+    "nome": "finneon"
+  },
+  {
+    "dex_nacional": "457",
+    "nome": "lumineon"
+  },
+  {
+    "dex_nacional": "459",
+    "nome": "snover"
+  },
+  {
+    "dex_nacional": "460",
+    "nome": "abomasnow"
+  },
+  {
+    "dex_nacional": "461",
+    "nome": "weavile"
+  },
+  {
+    "dex_nacional": "462",
+    "nome": "magnezone"
+  },
+  {
+    "dex_nacional": "464",
+    "nome": "rhyperior"
+  },
+  {
+    "dex_nacional": "466",
+    "nome": "electivire"
+  },
+  {
+    "dex_nacional": "467",
+    "nome": "magmortar"
+  },
+  {
+    "dex_nacional": "469",
+    "nome": "yanmega"
+  },
+  {
+    "dex_nacional": "470",
+    "nome": "leafeon"
+  },
+  {
+    "dex_nacional": "471",
+    "nome": "glaceon"
+  },
+  {
+    "dex_nacional": "472",
+    "nome": "gliscor"
+  },
+  {
+    "dex_nacional": "473",
+    "nome": "mamoswine"
+  },
+  {
+    "dex_nacional": "474",
+    "nome": "porygon-z"
+  },
+  {
+    "dex_nacional": "475",
+    "nome": "gallade"
+  },
+  {
+    "dex_nacional": "476",
+    "nome": "probopass"
+  },
+  {
+    "dex_nacional": "477",
+    "nome": "dusknoir"
+  },
+  {
+    "dex_nacional": "478",
+    "nome": "froslass"
+  },
+  {
+    "dex_nacional": "479",
+    "nome": "rotom"
+  },
+  {
+    "dex_nacional": "495",
+    "nome": "snivy"
+  },
+  {
+    "dex_nacional": "496",
+    "nome": "servine"
+  },
+  {
+    "dex_nacional": "497",
+    "nome": "serperior"
+  },
+  {
+    "dex_nacional": "498",
+    "nome": "tepig"
+  },
+  {
+    "dex_nacional": "499",
+    "nome": "pignite"
+  },
+  {
+    "dex_nacional": "500",
+    "nome": "emboar"
+  },
+  {
+    "dex_nacional": "501",
+    "nome": "oshawott"
+  },
+  {
+    "dex_nacional": "502",
+    "nome": "dewott"
+  },
+  {
+    "dex_nacional": "503",
+    "nome": "samurott"
+  },
+  {
+    "dex_nacional": "522",
+    "nome": "blitzle"
+  },
+  {
+    "dex_nacional": "523",
+    "nome": "zebstrika"
+  },
+  {
+    "dex_nacional": "529",
+    "nome": "drilbur"
+  },
+  {
+    "dex_nacional": "530",
+    "nome": "excadrill"
+  },
+  {
+    "dex_nacional": "532",
+    "nome": "timburr"
+  },
+  {
+    "dex_nacional": "533",
+    "nome": "gurdurr"
+  },
+  {
+    "dex_nacional": "534",
+    "nome": "conkeldurr"
+  },
+  {
+    "dex_nacional": "540",
+    "nome": "sewaddle"
+  },
+  {
+    "dex_nacional": "541",
+    "nome": "swadloon"
+  },
+  {
+    "dex_nacional": "542",
+    "nome": "leavanny"
+  },
+  {
+    "dex_nacional": "546",
+    "nome": "cottonee"
+  },
+  {
+    "dex_nacional": "547",
+    "nome": "whimsicott"
+  },
+  {
+    "dex_nacional": "548",
+    "nome": "petilil"
+  },
+  {
+    "dex_nacional": "549",
+    "nome": "lilligant"
+  },
+  {
+    "dex_nacional": "550",
+    "nome": "basculin"
+  },
+  {
+    "dex_nacional": "551",
+    "nome": "sandile"
+  },
+  {
+    "dex_nacional": "552",
+    "nome": "krokorok"
+  },
+  {
+    "dex_nacional": "553",
+    "nome": "krookodile"
+  },
+  {
+    "dex_nacional": "559",
+    "nome": "scraggy"
+  },
+  {
+    "dex_nacional": "560",
+    "nome": "scrafty"
+  },
+  {
+    "dex_nacional": "570",
+    "nome": "zorua"
+  },
+  {
+    "dex_nacional": "571",
+    "nome": "zoroark"
+  },
+  {
+    "dex_nacional": "572",
+    "nome": "minccino"
+  },
+  {
+    "dex_nacional": "573",
+    "nome": "cinccino"
+  },
+  {
+    "dex_nacional": "574",
+    "nome": "gothita"
+  },
+  {
+    "dex_nacional": "575",
+    "nome": "gothorita"
+  },
+  {
+    "dex_nacional": "576",
+    "nome": "gothitelle"
+  },
+  {
+    "dex_nacional": "577",
+    "nome": "solosis"
+  },
+  {
+    "dex_nacional": "578",
+    "nome": "duosion"
+  },
+  {
+    "dex_nacional": "579",
+    "nome": "reuniclus"
+  },
+  {
+    "dex_nacional": "580",
+    "nome": "ducklett"
+  },
+  {
+    "dex_nacional": "581",
+    "nome": "swanna"
+  },
+  {
+    "dex_nacional": "585",
+    "nome": "deerling"
+  },
+  {
+    "dex_nacional": "586",
+    "nome": "sawsbuck"
+  },
+  {
+    "dex_nacional": "590",
+    "nome": "foongus"
+  },
+  {
+    "dex_nacional": "591",
+    "nome": "amoonguss"
+  },
+  {
+    "dex_nacional": "594",
+    "nome": "alomomola"
+  },
+  {
+    "dex_nacional": "595",
+    "nome": "joltik"
+  },
+  {
+    "dex_nacional": "596",
+    "nome": "galvantula"
+  },
+  {
+    "dex_nacional": "602",
+    "nome": "tynamo"
+  },
+  {
+    "dex_nacional": "603",
+    "nome": "eelektrik"
+  },
+  {
+    "dex_nacional": "604",
+    "nome": "eelektross"
+  },
+  {
+    "dex_nacional": "607",
+    "nome": "litwick"
+  },
+  {
+    "dex_nacional": "608",
+    "nome": "lampent"
+  },
+  {
+    "dex_nacional": "609",
+    "nome": "chandelure"
+  },
+  {
+    "dex_nacional": "610",
+    "nome": "axew"
+  },
+  {
+    "dex_nacional": "611",
+    "nome": "fraxure"
+  },
+  {
+    "dex_nacional": "612",
+    "nome": "haxorus"
+  },
+  {
+    "dex_nacional": "613",
+    "nome": "cubchoo"
+  },
+  {
+    "dex_nacional": "614",
+    "nome": "beartic"
+  },
+  {
+    "dex_nacional": "615",
+    "nome": "cryogonal"
+  },
+  {
+    "dex_nacional": "619",
+    "nome": "mienfoo"
+  },
+  {
+    "dex_nacional": "620",
+    "nome": "mienshao"
+  },
+  {
+    "dex_nacional": "622",
+    "nome": "golett"
+  },
+  {
+    "dex_nacional": "623",
+    "nome": "golurk"
+  },
+  {
+    "dex_nacional": "624",
+    "nome": "pawniard"
+  },
+  {
+    "dex_nacional": "625",
+    "nome": "bisharp"
+  },
+  {
+    "dex_nacional": "627",
+    "nome": "rufflet"
+  },
+  {
+    "dex_nacional": "628",
+    "nome": "braviary"
+  },
+  {
+    "dex_nacional": "629",
+    "nome": "vullaby"
+  },
+  {
+    "dex_nacional": "630",
+    "nome": "mandibuzz"
+  },
+  {
+    "dex_nacional": "633",
+    "nome": "deino"
+  },
+  {
+    "dex_nacional": "634",
+    "nome": "zweilous"
+  },
+  {
+    "dex_nacional": "635",
+    "nome": "hydreigon"
+  },
+  {
+    "dex_nacional": "636",
+    "nome": "larvesta"
+  },
+  {
+    "dex_nacional": "637",
+    "nome": "volcarona"
+  },
+  {
+    "dex_nacional": "650",
+    "nome": "chespin"
+  },
+  {
+    "dex_nacional": "651",
+    "nome": "quilladin"
+  },
+  {
+    "dex_nacional": "652",
+    "nome": "chesnaught"
+  },
+  {
+    "dex_nacional": "653",
+    "nome": "fennekin"
+  },
+  {
+    "dex_nacional": "654",
+    "nome": "braixen"
+  },
+  {
+    "dex_nacional": "655",
+    "nome": "delphox"
+  },
+  {
+    "dex_nacional": "656",
+    "nome": "froakie"
+  },
+  {
+    "dex_nacional": "657",
+    "nome": "frogadier"
+  },
+  {
+    "dex_nacional": "658",
+    "nome": "greninja"
+  },
+  {
+    "dex_nacional": "661",
+    "nome": "fletchling"
+  },
+  {
+    "dex_nacional": "662",
+    "nome": "fletchinder"
+  },
+  {
+    "dex_nacional": "663",
+    "nome": "talonflame"
+  },
+  {
+    "dex_nacional": "664",
+    "nome": "scatterbug"
+  },
+  {
+    "dex_nacional": "665",
+    "nome": "spewpa"
+  },
+  {
+    "dex_nacional": "666",
+    "nome": "vivillon"
+  },
+  {
+    "dex_nacional": "667",
+    "nome": "litleo"
+  },
+  {
+    "dex_nacional": "668",
+    "nome": "pyroar"
+  },
+  {
+    "dex_nacional": "669",
+    "nome": "flabebe"
+  },
+  {
+    "dex_nacional": "670",
+    "nome": "floette"
+  },
+  {
+    "dex_nacional": "671",
+    "nome": "florges"
+  },
+  {
+    "dex_nacional": "672",
+    "nome": "skiddo"
+  },
+  {
+    "dex_nacional": "673",
+    "nome": "gogoat"
+  },
+  {
+    "dex_nacional": "677",
+    "nome": "espurr"
+  },
+  {
+    "dex_nacional": "678",
+    "nome": "meowstic"
+  },
+  {
+    "dex_nacional": "686",
+    "nome": "inkay"
+  },
+  {
+    "dex_nacional": "687",
+    "nome": "malamar"
+  },
+  {
+    "dex_nacional": "690",
+    "nome": "skrelp"
+  },
+  {
+    "dex_nacional": "691",
+    "nome": "dragalge"
+  },
+  {
+    "dex_nacional": "692",
+    "nome": "clauncher"
+  },
+  {
+    "dex_nacional": "693",
+    "nome": "clawitzer"
+  },
+  {
+    "dex_nacional": "700",
+    "nome": "sylveon"
+  },
+  {
+    "dex_nacional": "701",
+    "nome": "hawlucha"
+  },
+  {
+    "dex_nacional": "702",
+    "nome": "dedenne"
+  },
+  {
+    "dex_nacional": "703",
+    "nome": "carbink"
+  },
+  {
+    "dex_nacional": "704",
+    "nome": "goomy"
+  },
+  {
+    "dex_nacional": "705",
+    "nome": "sliggoo"
+  },
+  {
+    "dex_nacional": "706",
+    "nome": "goodra"
+  },
+  {
+    "dex_nacional": "707",
+    "nome": "klefki"
+  },
+  {
+    "dex_nacional": "708",
+    "nome": "phantump"
+  },
+  {
+    "dex_nacional": "709",
+    "nome": "trevenant"
+  },
+  {
+    "dex_nacional": "712",
+    "nome": "bergmite"
+  },
+  {
+    "dex_nacional": "713",
+    "nome": "avalugg"
+  },
+  {
+    "dex_nacional": "714",
+    "nome": "noibat"
+  },
+  {
+    "dex_nacional": "715",
+    "nome": "noivern"
+  },
+  {
+    "dex_nacional": "722",
+    "nome": "rowlet"
+  },
+  {
+    "dex_nacional": "723",
+    "nome": "dartrix"
+  },
+  {
+    "dex_nacional": "724",
+    "nome": "decidueye"
+  },
+  {
+    "dex_nacional": "725",
+    "nome": "litten"
+  },
+  {
+    "dex_nacional": "726",
+    "nome": "torracat"
+  },
+  {
+    "dex_nacional": "727",
+    "nome": "incineroar"
+  },
+  {
+    "dex_nacional": "728",
+    "nome": "popplio"
+  },
+  {
+    "dex_nacional": "729",
+    "nome": "brionne"
+  },
+  {
+    "dex_nacional": "730",
+    "nome": "primarina"
+  },
+  {
+    "dex_nacional": "731",
+    "nome": "pikipek"
+  },
+  {
+    "dex_nacional": "732",
+    "nome": "trumbeak"
+  },
+  {
+    "dex_nacional": "733",
+    "nome": "toucannon"
+  },
+  {
+    "dex_nacional": "734",
+    "nome": "yungoos"
+  },
+  {
+    "dex_nacional": "735",
+    "nome": "gumshoos"
+  },
+  {
+    "dex_nacional": "736",
+    "nome": "grubbin"
+  },
+  {
+    "dex_nacional": "737",
+    "nome": "charjabug"
+  },
+  {
+    "dex_nacional": "738",
+    "nome": "vikavolt"
+  },
+  {
+    "dex_nacional": "739",
+    "nome": "crabrawler"
+  },
+  {
+    "dex_nacional": "740",
+    "nome": "crabominable"
+  },
+  {
+    "dex_nacional": "741",
+    "nome": "oricorio"
+  },
+  {
+    "dex_nacional": "742",
+    "nome": "cutiefly"
+  },
+  {
+    "dex_nacional": "743",
+    "nome": "ribombee"
+  },
+  {
+    "dex_nacional": "744",
+    "nome": "rockruff"
+  },
+  {
+    "dex_nacional": "745",
+    "nome": "lycanroc"
+  },
+  {
+    "dex_nacional": "747",
+    "nome": "mareanie"
+  },
+  {
+    "dex_nacional": "748",
+    "nome": "toxapex"
+  },
+  {
+    "dex_nacional": "749",
+    "nome": "mudbray"
+  },
+  {
+    "dex_nacional": "750",
+    "nome": "mudsdale"
+  },
+  {
+    "dex_nacional": "751",
+    "nome": "dewpider"
+  },
+  {
+    "dex_nacional": "752",
+    "nome": "araquanid"
+  },
+  {
+    "dex_nacional": "753",
+    "nome": "fomantis"
+  },
+  {
+    "dex_nacional": "754",
+    "nome": "lurantis"
+  },
+  {
+    "dex_nacional": "757",
+    "nome": "salandit"
+  },
+  {
+    "dex_nacional": "758",
+    "nome": "salazzle"
+  },
+  {
+    "dex_nacional": "761",
+    "nome": "bounsweet"
+  },
+  {
+    "dex_nacional": "762",
+    "nome": "steenee"
+  },
+  {
+    "dex_nacional": "763",
+    "nome": "tsareena"
+  },
+  {
+    "dex_nacional": "764",
+    "nome": "comfey"
+  },
+  {
+    "dex_nacional": "765",
+    "nome": "oranguru"
+  },
+  {
+    "dex_nacional": "766",
+    "nome": "passimian"
+  },
+  {
+    "dex_nacional": "769",
+    "nome": "sandygast"
+  },
+  {
+    "dex_nacional": "770",
+    "nome": "palossand"
+  },
+  {
+    "dex_nacional": "774",
+    "nome": "minior"
+  },
+  {
+    "dex_nacional": "775",
+    "nome": "komala"
+  },
+  {
+    "dex_nacional": "778",
+    "nome": "mimikyu"
+  },
+  {
+    "dex_nacional": "779",
+    "nome": "bruxish"
+  },
+  {
+    "dex_nacional": "782",
+    "nome": "jangmo-o"
+  },
+  {
+    "dex_nacional": "783",
+    "nome": "hakamo-o"
+  },
+  {
+    "dex_nacional": "784",
+    "nome": "kommo-o"
+  },
+  {
+    "dex_nacional": "810",
+    "nome": "grookey"
+  },
+  {
+    "dex_nacional": "811",
+    "nome": "thwackey"
+  },
+  {
+    "dex_nacional": "812",
+    "nome": "rillaboom"
+  },
+  {
+    "dex_nacional": "813",
+    "nome": "scorbunny"
+  },
+  {
+    "dex_nacional": "814",
+    "nome": "raboot"
+  },
+  {
+    "dex_nacional": "815",
+    "nome": "cinderace"
+  },
+  {
+    "dex_nacional": "816",
+    "nome": "sobble"
+  },
+  {
+    "dex_nacional": "817",
+    "nome": "drizzile"
+  },
+  {
+    "dex_nacional": "818",
+    "nome": "inteleon"
+  },
+  {
+    "dex_nacional": "819",
+    "nome": "skwovet"
+  },
+  {
+    "dex_nacional": "820",
+    "nome": "greedent"
+  },
+  {
+    "dex_nacional": "821",
+    "nome": "rookidee"
+  },
+  {
+    "dex_nacional": "822",
+    "nome": "corvisquire"
+  },
+  {
+    "dex_nacional": "823",
+    "nome": "corviknight"
+  },
+  {
+    "dex_nacional": "833",
+    "nome": "chewtle"
+  },
+  {
+    "dex_nacional": "834",
+    "nome": "drednaw"
+  },
+  {
+    "dex_nacional": "837",
+    "nome": "rolycoly"
+  },
+  {
+    "dex_nacional": "838",
+    "nome": "carkol"
+  },
+  {
+    "dex_nacional": "839",
+    "nome": "coalossal"
+  },
+  {
+    "dex_nacional": "840",
+    "nome": "applin"
+  },
+  {
+    "dex_nacional": "841",
+    "nome": "flapple"
+  },
+  {
+    "dex_nacional": "842",
+    "nome": "appletun"
+  },
+  {
+    "dex_nacional": "843",
+    "nome": "silicobra"
+  },
+  {
+    "dex_nacional": "844",
+    "nome": "sandaconda"
+  },
+  {
+    "dex_nacional": "845",
+    "nome": "cramorant"
+  },
+  {
+    "dex_nacional": "846",
+    "nome": "arrokuda"
+  },
+  {
+    "dex_nacional": "847",
+    "nome": "barraskewda"
+  },
+  {
+    "dex_nacional": "848",
+    "nome": "toxel"
+  },
+  {
+    "dex_nacional": "849",
+    "nome": "toxtricity"
+  },
+  {
+    "dex_nacional": "854",
+    "nome": "sinistea"
+  },
+  {
+    "dex_nacional": "855",
+    "nome": "polteageist"
+  },
+  {
+    "dex_nacional": "856",
+    "nome": "hatenna"
+  },
+  {
+    "dex_nacional": "857",
+    "nome": "hattrem"
+  },
+  {
+    "dex_nacional": "858",
+    "nome": "hatterene"
+  },
+  {
+    "dex_nacional": "859",
+    "nome": "impidimp"
+  },
+  {
+    "dex_nacional": "860",
+    "nome": "morgrem"
+  },
+  {
+    "dex_nacional": "861",
+    "nome": "grimmsnarl"
+  },
+  {
+    "dex_nacional": "868",
+    "nome": "milcery"
+  },
+  {
+    "dex_nacional": "869",
+    "nome": "alcremie"
+  },
+  {
+    "dex_nacional": "870",
+    "nome": "falinks"
+  },
+  {
+    "dex_nacional": "871",
+    "nome": "pincurchin"
+  },
+  {
+    "dex_nacional": "872",
+    "nome": "snom"
+  },
+  {
+    "dex_nacional": "873",
+    "nome": "frosmoth"
+  },
+  {
+    "dex_nacional": "874",
+    "nome": "stonjourner"
+  },
+  {
+    "dex_nacional": "875",
+    "nome": "eiscue"
+  },
+  {
+    "dex_nacional": "876",
+    "nome": "indeedee"
+  },
+  {
+    "dex_nacional": "877",
+    "nome": "morpeko"
+  },
+  {
+    "dex_nacional": "878",
+    "nome": "cufant"
+  },
+  {
+    "dex_nacional": "879",
+    "nome": "copperajah"
+  },
+  {
+    "dex_nacional": "884",
+    "nome": "duraludon"
+  },
+  {
+    "dex_nacional": "885",
+    "nome": "dreepy"
+  },
+  {
+    "dex_nacional": "886",
+    "nome": "drakloak"
+  },
+  {
+    "dex_nacional": "887",
+    "nome": "dragapult"
+  },
+  {
+    "dex_nacional": "900",
+    "nome": "kleavor"
+  },
+  {
+    "dex_nacional": "901",
+    "nome": "ursaluna"
+  },
+  {
+    "dex_nacional": "902",
+    "nome": "basculegion"
+  },
+  {
+    "dex_nacional": "904",
+    "nome": "overqwil"
+  },
+  {
+    "dex_nacional": "906",
+    "nome": "sprigatito"
+  },
+  {
+    "dex_nacional": "907",
+    "nome": "floragato"
+  },
+  {
+    "dex_nacional": "908",
+    "nome": "meowscarada"
+  },
+  {
+    "dex_nacional": "909",
+    "nome": "fuecoco"
+  },
+  {
+    "dex_nacional": "910",
+    "nome": "crocalor"
+  },
+  {
+    "dex_nacional": "911",
+    "nome": "skeledirge"
+  },
+  {
+    "dex_nacional": "912",
+    "nome": "quaxly"
+  },
+  {
+    "dex_nacional": "913",
+    "nome": "quaxwell"
+  },
+  {
+    "dex_nacional": "914",
+    "nome": "quaquaval"
+  },
+  {
+    "dex_nacional": "915",
+    "nome": "lechonk"
+  },
+  {
+    "dex_nacional": "916",
+    "nome": "oinkologne"
+  },
+  {
+    "dex_nacional": "917",
+    "nome": "tarountula"
+  },
+  {
+    "dex_nacional": "918",
+    "nome": "spidops"
+  },
+  {
+    "dex_nacional": "919",
+    "nome": "nymble"
+  },
+  {
+    "dex_nacional": "920",
+    "nome": "lokix"
+  },
+  {
+    "dex_nacional": "921",
+    "nome": "pawmi"
+  },
+  {
+    "dex_nacional": "922",
+    "nome": "pawmo"
+  },
+  {
+    "dex_nacional": "923",
+    "nome": "pawmot"
+  },
+  {
+    "dex_nacional": "924",
+    "nome": "tandemaus"
+  },
+  {
+    "dex_nacional": "925",
+    "nome": "maushold"
+  },
+  {
+    "dex_nacional": "926",
+    "nome": "fidough"
+  },
+  {
+    "dex_nacional": "927",
+    "nome": "dachsbun"
+  },
+  {
+    "dex_nacional": "928",
+    "nome": "smoliv"
+  },
+  {
+    "dex_nacional": "929",
+    "nome": "dolliv"
+  },
+  {
+    "dex_nacional": "930",
+    "nome": "arboliva"
+  },
+  {
+    "dex_nacional": "931",
+    "nome": "squawkabilly"
+  },
+  {
+    "dex_nacional": "932",
+    "nome": "nacli"
+  },
+  {
+    "dex_nacional": "933",
+    "nome": "naclstack"
+  },
+  {
+    "dex_nacional": "934",
+    "nome": "garganacl"
+  },
+  {
+    "dex_nacional": "935",
+    "nome": "charcadet"
+  },
+  {
+    "dex_nacional": "936",
+    "nome": "armarouge"
+  },
+  {
+    "dex_nacional": "937",
+    "nome": "ceruledge"
+  },
+  {
+    "dex_nacional": "938",
+    "nome": "tadbulb"
+  },
+  {
+    "dex_nacional": "939",
+    "nome": "bellibolt"
+  },
+  {
+    "dex_nacional": "940",
+    "nome": "wattrel"
+  },
+  {
+    "dex_nacional": "941",
+    "nome": "kilowattrel"
+  },
+  {
+    "dex_nacional": "942",
+    "nome": "maschiff"
+  },
+  {
+    "dex_nacional": "943",
+    "nome": "mabosstiff"
+  },
+  {
+    "dex_nacional": "944",
+    "nome": "shroodle"
+  },
+  {
+    "dex_nacional": "945",
+    "nome": "grafaiai"
+  },
+  {
+    "dex_nacional": "946",
+    "nome": "bramblin"
+  },
+  {
+    "dex_nacional": "947",
+    "nome": "brambleghast"
+  },
+  {
+    "dex_nacional": "948",
+    "nome": "toedscool"
+  },
+  {
+    "dex_nacional": "949",
+    "nome": "toedscruel"
+  },
+  {
+    "dex_nacional": "950",
+    "nome": "klawf"
+  },
+  {
+    "dex_nacional": "951",
+    "nome": "capsakid"
+  },
+  {
+    "dex_nacional": "952",
+    "nome": "scovillain"
+  },
+  {
+    "dex_nacional": "953",
+    "nome": "rellor"
+  },
+  {
+    "dex_nacional": "954",
+    "nome": "rabsca"
+  },
+  {
+    "dex_nacional": "955",
+    "nome": "flittle"
+  },
+  {
+    "dex_nacional": "956",
+    "nome": "espathra"
+  },
+  {
+    "dex_nacional": "957",
+    "nome": "tinkatink"
+  },
+  {
+    "dex_nacional": "958",
+    "nome": "tinkatuff"
+  },
+  {
+    "dex_nacional": "959",
+    "nome": "tinkaton"
+  },
+  {
+    "dex_nacional": "960",
+    "nome": "wiglett"
+  },
+  {
+    "dex_nacional": "961",
+    "nome": "wugtrio"
+  },
+  {
+    "dex_nacional": "962",
+    "nome": "bombirdier"
+  },
+  {
+    "dex_nacional": "963",
+    "nome": "finizen"
+  },
+  {
+    "dex_nacional": "964",
+    "nome": "palafin"
+  },
+  {
+    "dex_nacional": "965",
+    "nome": "varoom"
+  },
+  {
+    "dex_nacional": "966",
+    "nome": "revavroom"
+  },
+  {
+    "dex_nacional": "967",
+    "nome": "cyclizar"
+  },
+  {
+    "dex_nacional": "968",
+    "nome": "orthworm"
+  },
+  {
+    "dex_nacional": "969",
+    "nome": "glimmet"
+  },
+  {
+    "dex_nacional": "970",
+    "nome": "glimmora"
+  },
+  {
+    "dex_nacional": "971",
+    "nome": "greavard"
+  },
+  {
+    "dex_nacional": "972",
+    "nome": "houndstone"
+  },
+  {
+    "dex_nacional": "973",
+    "nome": "flamigo"
+  },
+  {
+    "dex_nacional": "974",
+    "nome": "cetoddle"
+  },
+  {
+    "dex_nacional": "975",
+    "nome": "cetitan"
+  },
+  {
+    "dex_nacional": "976",
+    "nome": "veluza"
+  },
+  {
+    "dex_nacional": "977",
+    "nome": "dondozo"
+  },
+  {
+    "dex_nacional": "978",
+    "nome": "tatsugiri"
+  },
+  {
+    "dex_nacional": "979",
+    "nome": "annihilape"
+  },
+  {
+    "dex_nacional": "980",
+    "nome": "clodsire"
+  },
+  {
+    "dex_nacional": "981",
+    "nome": "farigiraf"
+  },
+  {
+    "dex_nacional": "982",
+    "nome": "dudunsparce"
+  },
+  {
+    "dex_nacional": "983",
+    "nome": "kingambit"
+  },
+  {
+    "dex_nacional": "984",
+    "nome": "great-tusk"
+  },
+  {
+    "dex_nacional": "985",
+    "nome": "scream-tail"
+  },
+  {
+    "dex_nacional": "986",
+    "nome": "brute-bonnet"
+  },
+  {
+    "dex_nacional": "987",
+    "nome": "flutter-mane"
+  },
+  {
+    "dex_nacional": "988",
+    "nome": "slither-wing"
+  },
+  {
+    "dex_nacional": "989",
+    "nome": "sandy-shocks"
+  },
+  {
+    "dex_nacional": "990",
+    "nome": "iron-treads"
+  },
+  {
+    "dex_nacional": "991",
+    "nome": "iron-bundle"
+  },
+  {
+    "dex_nacional": "992",
+    "nome": "iron-hands"
+  },
+  {
+    "dex_nacional": "993",
+    "nome": "iron-jugulis"
+  },
+  {
+    "dex_nacional": "994",
+    "nome": "iron-moth"
+  },
+  {
+    "dex_nacional": "995",
+    "nome": "iron-thorns"
+  },
+  {
+    "dex_nacional": "996",
+    "nome": "frigibax"
+  },
+  {
+    "dex_nacional": "997",
+    "nome": "arctibax"
+  },
+  {
+    "dex_nacional": "998",
+    "nome": "baxcalibur"
+  },
+  {
+    "dex_nacional": "999",
+    "nome": "gimmighoul"
+  },
+  {
+    "dex_nacional": "1000",
+    "nome": "gholdengo"
+  },
+  {
+    "dex_nacional": "1001",
+    "nome": "wo-chien"
+  },
+  {
+    "dex_nacional": "1002",
+    "nome": "chien-pao"
+  },
+  {
+    "dex_nacional": "1003",
+    "nome": "ting-lu"
+  },
+  {
+    "dex_nacional": "1004",
+    "nome": "chi-yu"
+  },
+  {
+    "dex_nacional": "1005",
+    "nome": "roaring-moon"
+  },
+  {
+    "dex_nacional": "1006",
+    "nome": "iron-valiant"
+  },
+  {
+    "dex_nacional": "1007",
+    "nome": "koraidon"
+  },
+  {
+    "dex_nacional": "1008",
+    "nome": "miraidon"
+  },
+  {
+    "dex_nacional": "1009",
+    "nome": "walking-wake"
+  },
+  {
+    "dex_nacional": "1010",
+    "nome": "iron-leaves"
+  },
+  {
+    "dex_nacional": "1011",
+    "nome": "dipplin"
+  },
+  {
+    "dex_nacional": "1012",
+    "nome": "poltchageist"
+  },
+  {
+    "dex_nacional": "1013",
+    "nome": "sinistcha"
+  },
+  {
+    "dex_nacional": "1014",
+    "nome": "okidogi"
+  },
+  {
+    "dex_nacional": "1015",
+    "nome": "munkidori"
+  },
+  {
+    "dex_nacional": "1016",
+    "nome": "fezandipiti"
+  },
+  {
+    "dex_nacional": "1017",
+    "nome": "ogerpon"
+  },
+  {
+    "dex_nacional": "1018",
+    "nome": "archaludon"
+  },
+  {
+    "dex_nacional": "1019",
+    "nome": "hydrapple"
+  },
+  {
+    "dex_nacional": "1020",
+    "nome": "gouging-fire"
+  },
+  {
+    "dex_nacional": "1021",
+    "nome": "raging-bolt"
+  },
+  {
+    "dex_nacional": "1022",
+    "nome": "iron-boulder"
+  },
+  {
+    "dex_nacional": "1023",
+    "nome": "iron-crown"
+  },
+  {
+    "dex_nacional": "1024",
+    "nome": "terapagos"
+  },
+  {
+    "dex_nacional": "1025",
+    "nome": "pecharunt"
   }
 ]
