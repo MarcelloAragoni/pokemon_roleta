@@ -121,6 +121,19 @@ const ManualRoulette: React.FC = () => {
     flavor_pt?: string;
   }>({});
   const [spinCount, setSpinCount] = useState(0);
+  const [isMobile, setIsMobile] = useState(false);
+
+  // Detectar se é mobile
+  useEffect(() => {
+    const checkMobile = () => {
+      setIsMobile(window.innerWidth <= 768);
+    };
+
+    checkMobile();
+    window.addEventListener("resize", checkMobile);
+
+    return () => window.removeEventListener("resize", checkMobile);
+  }, []);
 
   useEffect(() => {
     // Montar a lista a partir do JSON
@@ -187,6 +200,49 @@ const ManualRoulette: React.FC = () => {
     }, 2500);
   };
 
+  const handleMobileRandomize = async () => {
+    if (isLoading || filteredNames.length === 0) return;
+    setIsLoading(true);
+    setSelected(null);
+    setSpeciesInfo({});
+
+    // Selecionar um Pokémon aleatório da lista filtrada
+    const randomIndex = Math.floor(Math.random() * filteredNames.length);
+    const randomPokemon = filteredNames[randomIndex];
+
+    try {
+      const poke = await apiService.getPokemonById(randomPokemon.id);
+      setSelected(poke);
+
+      // Buscar species
+      try {
+        const res = await fetch(
+          `https://pokeapi.co/api/v2/pokemon-species/${poke?.id}/`
+        );
+        const data = await res.json();
+        const genus_en =
+          data.genera.find((g: any) => g.language.name === "en")?.genus || "";
+        const genus_pt =
+          data.genera.find((g: any) => g.language.name === "pt")?.genus || "";
+        const flavor_en =
+          data.flavor_text_entries
+            .find((f: any) => f.language.name === "en")
+            ?.flavor_text.replace(/\f/g, " ") || "";
+        const flavor_pt =
+          data.flavor_text_entries
+            .find((f: any) => f.language.name === "pt")
+            ?.flavor_text.replace(/\f/g, " ") || "";
+        setSpeciesInfo({ genus_en, genus_pt, flavor_en, flavor_pt });
+      } catch (e) {
+        setSpeciesInfo({});
+      }
+    } catch (error) {
+      console.error("Erro ao buscar Pokémon:", error);
+    } finally {
+      setIsLoading(false);
+    }
+  };
+
   const handleNewWheel = () => {
     // IDs dos Pokémon já exibidos
     const previousIds = new Set(wheelNames.map((p) => p.id));
@@ -207,6 +263,170 @@ const ManualRoulette: React.FC = () => {
     setAngle(0);
   };
 
+  // Layout Mobile
+  if (isMobile) {
+    return (
+      <div className="mobile-container">
+        {isLoading ? (
+          <div className="loading-container">
+            <div className="loading-spinner"></div>
+            <p>Carregando Pokédex Scarlet/Violet...</p>
+          </div>
+        ) : filteredNames.length === 0 ? (
+          <div className="loading-container">
+            <p>Nenhum Pokémon disponível para esta versão.</p>
+          </div>
+        ) : (
+          <>
+            {/* Botão de Randomizar para Mobile */}
+            <div
+              style={{
+                display: "flex",
+                justifyContent: "center",
+                marginBottom: "30px",
+                flexDirection: "column",
+                alignItems: "center",
+                gap: "15px",
+              }}
+            >
+              <button
+                className="mobile-randomize-button"
+                onClick={handleMobileRandomize}
+                disabled={isLoading}
+              >
+                {isLoading ? "Randomizando..." : "🎲 Randomizar Pokémon"}
+              </button>
+
+              <button
+                className="mobile-new-wheel-button"
+                onClick={handleNewWheel}
+                disabled={isLoading}
+              >
+                🔄 Nova Lista
+              </button>
+            </div>
+
+            {/* Card do Pokémon para Mobile */}
+            {selected && !isLoading && (
+              <div className="mobile-pokehome-card">
+                {/* Barra superior */}
+                <div className="mobile-pokehome-header">
+                  <span className="mobile-pokehome-id">
+                    No.{selected.id.toString().padStart(3, "0")}
+                  </span>
+                  <span className="mobile-pokehome-name">
+                    {apiService.formatPokemonName(selected.name)}
+                  </span>
+                  <span className="mobile-pokehome-gender-icons">
+                    {selected.sprites.other["official-artwork"].front_shiny ? (
+                      <span className="mobile-pokehome-shiny">✨</span>
+                    ) : null}
+                  </span>
+                </div>
+
+                {/* Imagem */}
+                <div className="mobile-pokehome-imgbox">
+                  <img
+                    src={
+                      selected.sprites.other["official-artwork"].front_shiny ||
+                      selected.sprites.front_shiny ||
+                      selected.sprites.front_default
+                    }
+                    alt={selected.name}
+                    className="mobile-pokehome-img"
+                    onError={(e) => {
+                      const target = e.target as HTMLImageElement;
+                      target.src = selected.sprites.front_default;
+                    }}
+                  />
+                </div>
+
+                {/* Tipo */}
+                <div className="mobile-pokehome-types-row">
+                  {selected.types.map((type, idx) => (
+                    <span
+                      key={idx}
+                      className="mobile-pokehome-type-badge"
+                      style={{
+                        background: apiService.getTypeColor(type.type.name),
+                      }}
+                    >
+                      <span className="mobile-pokehome-type-ico">
+                        {TYPE_ICONS[type.type.name] || "❔"}
+                      </span>
+                      {type.type.name.charAt(0).toUpperCase() +
+                        type.type.name.slice(1)}
+                    </span>
+                  ))}
+                </div>
+
+                {/* Genus */}
+                <div className="mobile-pokehome-genus-bar">
+                  {speciesInfo.genus_en || "Pokémon"}
+                  {speciesInfo.genus_pt ? (
+                    <span className="mobile-pokehome-genus-pt">
+                      {" "}
+                      / {speciesInfo.genus_pt}
+                    </span>
+                  ) : null}
+                </div>
+
+                {/* Flavor text */}
+                <div className="mobile-pokehome-flavor-box">
+                  <div className="mobile-pokehome-flavor-lang">ENG</div>
+                  <div className="mobile-pokehome-flavor-text">
+                    {speciesInfo.flavor_en}
+                  </div>
+                  <div className="mobile-pokehome-flavor-lang">PT</div>
+                  <div className="mobile-pokehome-flavor-text">
+                    {speciesInfo.flavor_pt}
+                  </div>
+                </div>
+
+                {/* Peso e altura */}
+                <div className="mobile-pokehome-measure-row">
+                  <div className="mobile-pokehome-measure-card">
+                    <span role="img" aria-label="height">
+                      📏
+                    </span>{" "}
+                    {(selected.height / 10).toFixed(1)}m
+                  </div>
+                  <div className="mobile-pokehome-measure-card">
+                    <span role="img" aria-label="weight">
+                      ⚖️
+                    </span>{" "}
+                    {(selected.weight / 10).toFixed(1)}kg
+                  </div>
+                </div>
+
+                {/* Abilities */}
+                <div className="mobile-pokehome-abilities">
+                  <div className="mobile-pokehome-abilities-title">
+                    Abilities
+                  </div>
+                  <div className="mobile-pokehome-abilities-list">
+                    {selected.abilities.map((a, i) => (
+                      <div
+                        key={i}
+                        className={`mobile-pokehome-ability${
+                          a.is_hidden ? " hidden" : ""
+                        }`}
+                      >
+                        {apiService.formatPokemonName(a.ability.name)}
+                        {a.is_hidden && " (Hidden)"}
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              </div>
+            )}
+          </>
+        )}
+      </div>
+    );
+  }
+
+  // Layout Desktop (original)
   return (
     <div
       className="roulette-flex"

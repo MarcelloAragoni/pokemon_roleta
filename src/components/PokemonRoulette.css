@@ -1060,3 +1060,280 @@
     padding: 0 6px;
   }
 }
+
+/* Estilos para Layout Mobile */
+.mobile-container {
+  padding: 20px;
+  max-width: 100%;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.mobile-randomize-button {
+  padding: 15px 30px;
+  font-size: 18px;
+  font-weight: bold;
+  background: linear-gradient(45deg, #4caf50, #45a049);
+  color: white;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+  min-width: 200px;
+  text-align: center;
+}
+
+.mobile-randomize-button:hover:not(:disabled) {
+  transform: scale(1.05);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+  background: linear-gradient(45deg, #45a049, #3d8b40);
+}
+
+.mobile-randomize-button:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+  transform: none;
+}
+
+.mobile-new-wheel-button {
+  padding: 10px 20px;
+  font-size: 14px;
+  background: linear-gradient(45deg, #2196f3, #1976d2);
+  color: white;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+}
+
+.mobile-new-wheel-button:hover:not(:disabled) {
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  background: linear-gradient(45deg, #1976d2, #1565c0);
+}
+
+.mobile-new-wheel-button:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+  transform: none;
+}
+
+.mobile-pokehome-card {
+  background: #fff;
+  border-radius: 20px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 0 auto;
+  max-width: 400px;
+  width: 100%;
+  animation: fadeIn 0.5s ease-in;
+}
+
+.mobile-pokehome-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+  padding: 10px 0;
+  border-bottom: 2px solid #f0f0f0;
+}
+
+.mobile-pokehome-id {
+  font-size: 14px;
+  color: #666;
+  font-weight: bold;
+}
+
+.mobile-pokehome-name {
+  font-size: 20px;
+  font-weight: bold;
+  color: #333;
+  text-align: center;
+  flex: 1;
+}
+
+.mobile-pokehome-gender-icons {
+  font-size: 16px;
+}
+
+.mobile-pokehome-shiny {
+  animation: sparkle 2s ease-in-out infinite;
+}
+
+.mobile-pokehome-imgbox {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.mobile-pokehome-img {
+  width: 200px;
+  height: 200px;
+  object-fit: contain;
+  filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.3));
+  transition: transform 0.3s ease;
+}
+
+.mobile-pokehome-img:hover {
+  transform: scale(1.05);
+}
+
+.mobile-pokehome-types-row {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-bottom: 15px;
+  flex-wrap: wrap;
+}
+
+.mobile-pokehome-type-badge {
+  color: #333;
+  padding: 8px 16px;
+  border-radius: 20px;
+  font-size: 14px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  text-shadow: none;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.mobile-pokehome-type-ico {
+  font-size: 16px;
+}
+
+.mobile-pokehome-genus-bar {
+  text-align: center;
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 15px;
+  font-style: italic;
+}
+
+.mobile-pokehome-genus-pt {
+  color: #999;
+}
+
+.mobile-pokehome-flavor-box {
+  background-color: #f8f9fa;
+  border-radius: 10px;
+  padding: 15px;
+  margin-bottom: 15px;
+}
+
+.mobile-pokehome-flavor-lang {
+  font-size: 12px;
+  font-weight: bold;
+  color: #666;
+  margin-bottom: 5px;
+}
+
+.mobile-pokehome-flavor-text {
+  font-size: 14px;
+  line-height: 1.4;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.mobile-pokehome-measure-row {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 15px;
+}
+
+.mobile-pokehome-measure-card {
+  text-align: center;
+  padding: 10px;
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  flex: 1;
+  margin: 0 5px;
+  font-weight: 500;
+  color: #333;
+}
+
+.mobile-pokehome-abilities {
+  background-color: #f8f9fa;
+  border-radius: 10px;
+  padding: 15px;
+}
+
+.mobile-pokehome-abilities-title {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.mobile-pokehome-abilities-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.mobile-pokehome-ability {
+  padding: 8px 12px;
+  background-color: #e9ecef;
+  border-radius: 8px;
+  font-size: 14px;
+  color: #495057;
+}
+
+.mobile-pokehome-ability.hidden {
+  background-color: #fff3cd;
+  color: #856404;
+  font-style: italic;
+}
+
+/* Media queries para responsividade adicional */
+@media (max-width: 480px) {
+  .mobile-container {
+    padding: 15px;
+  }
+
+  .mobile-pokehome-card {
+    padding: 15px;
+    margin: 0 10px;
+  }
+
+  .mobile-pokehome-img {
+    width: 180px;
+    height: 180px;
+  }
+
+  .mobile-pokehome-name {
+    font-size: 18px;
+  }
+
+  .mobile-pokehome-types-row {
+    gap: 8px;
+  }
+
+  .mobile-randomize-button {
+    min-width: 180px;
+    padding: 12px 25px;
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 360px) {
+  .mobile-pokehome-img {
+    width: 160px;
+    height: 160px;
+  }
+
+  .mobile-pokehome-name {
+    font-size: 16px;
+  }
+
+  .mobile-pokehome-id {
+    font-size: 12px;
+  }
+
+  .mobile-pokehome-flavor-text {
+    font-size: 13px;
+  }
+}
