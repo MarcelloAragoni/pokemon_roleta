@@ -48,8 +48,6 @@ const COLORS = [
   "#0984e3",
 ];
 
-type Version = "all" | "scarlet" | "violet";
-
 function getRandomSample<T>(arr: T[], n: number): T[] {
   const copy = [...arr];
   const result: T[] = [];
