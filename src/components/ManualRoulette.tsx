@@ -3,8 +3,6 @@ import type { Pokemon } from "../types/pokemon";
 import {
   PokemonApiService,
   SV_POKEMON_IDS,
-  SCARLET_EXCLUSIVES,
-  VIOLET_EXCLUSIVES,
   LEGENDARIES_SV,
   MYTHICALS_SV,
 } from "../services/pokemonApi";
