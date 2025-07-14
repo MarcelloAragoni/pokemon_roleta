@@ -1064,10 +1064,27 @@
 /* Estilos para Layout Mobile */
 .mobile-container {
   padding: 20px;
-  max-width: 100%;
+  max-width: 100vw;
+  width: 100vw;
+  min-width: 0;
   min-height: 100vh;
   background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+
+.mobile-buttons-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  gap: 15px;
+  margin-bottom: 30px;
 }
 
 .mobile-randomize-button {
@@ -1125,11 +1142,22 @@
   background: #fff;
   border-radius: 20px;
   box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
-  padding: 20px;
-  margin: 0 auto;
+  padding: 16px;
+  margin: 20px auto 0 auto;
   max-width: 400px;
   width: 100%;
+  box-sizing: border-box;
   animation: fadeIn 0.5s ease-in;
+}
+
+@media (max-width: 480px) {
+  .mobile-pokehome-card {
+    padding: 8px;
+    margin: 16px auto 0 auto;
+    width: 100%;
+    max-width: 98vw;
+    box-sizing: border-box;
+  }
 }
 
 .mobile-pokehome-header {
@@ -1291,12 +1319,16 @@
 /* Media queries para responsividade adicional */
 @media (max-width: 480px) {
   .mobile-container {
-    padding: 15px;
+    padding: 10px;
+    width: 100vw;
+    min-width: 0;
+    box-sizing: border-box;
   }
-
   .mobile-pokehome-card {
-    padding: 15px;
-    margin: 0 10px;
+    padding: 10px;
+    margin: 20px auto 0 auto;
+    width: 100%;
+    max-width: 400px;
   }
 
   .mobile-pokehome-img {

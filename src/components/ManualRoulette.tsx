@@ -279,16 +279,7 @@ const ManualRoulette: React.FC = () => {
         ) : (
           <>
             {/* Botão de Randomizar para Mobile */}
-            <div
-              style={{
-                display: "flex",
-                justifyContent: "center",
-                marginBottom: "30px",
-                flexDirection: "column",
-                alignItems: "center",
-                gap: "15px",
-              }}
-            >
+            <div className="mobile-buttons-wrapper">
               <button
                 className="mobile-randomize-button"
                 onClick={handleMobileRandomize}

@@ -40,6 +40,36 @@ body {
   min-height: 100vh;
 }
 
+html,
+body,
+#root,
+.App {
+  width: 100vw;
+  min-width: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+@media (max-width: 600px) {
+  html,
+  body,
+  #root,
+  .App {
+    width: 100vw;
+    min-width: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+  }
+}
+
 a {
   font-weight: 500;
   color: #646cff;
